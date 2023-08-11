@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # frozen_string_literal: true
 
 require 'active_support/core_ext/integer/time'
+=======
+require "active_support/core_ext/integer/time"
+>>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
@@ -21,13 +25,21 @@ Rails.application.configure do
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
+<<<<<<< HEAD
   if Rails.root.join('tmp/caching-dev.txt').exist?
+=======
+  if Rails.root.join("tmp/caching-dev.txt").exist?
+>>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
     config.action_controller.perform_caching = true
     config.action_controller.enable_fragment_cache_logging = true
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
+<<<<<<< HEAD
       'Cache-Control' => "public, max-age=#{2.days.to_i}"
+=======
+      "Cache-Control" => "public, max-age=#{2.days.to_i}"
+>>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
     }
   else
     config.action_controller.perform_caching = false

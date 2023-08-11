@@ -1,12 +1,16 @@
 class TasksController < ApplicationController
+<<<<<<< HEAD
 
   before_action :set_task, only: [:show, :edit, :update, :destroy]
 
+=======
+>>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
   def index
     @tasks = Task.all
   end
 
   def show
+<<<<<<< HEAD
 
   end
 
@@ -46,4 +50,11 @@ class TasksController < ApplicationController
   def task_params
     params.require(:task).permit(:title, :details, :completed)
   end
+=======
+    def show
+      @task = Task.find(params[:id])
+    end
+  end
+
+>>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
 end

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # frozen_string_literal: true
+=======
+>>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
 # Be sure to restart your server when you modify this file.
 
 # Add new inflection rules using the following format. Inflections
