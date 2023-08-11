@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 # frozen_string_literal: true
 
-=======
->>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-<<<<<<< HEAD
   # root "tasks#home"
   # get 'tasks', to: 'tasks#index'
   # get 'tasks/new', to: 'tasks#new'
@@ -26,9 +22,4 @@ Rails.application.routes.draw do
   delete 'tasks/:id', to: 'tasks#destroy'
 
   # resources :tasks
-=======
-  # root "articles#index"
-  get "tasks", to: "tasks#index"
-  get "tasks/:id", to: "tasks#show"
->>>>>>> 5c5b4f6f73484a1769c612ff0292bed73b80d42f
 end
