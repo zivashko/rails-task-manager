@@ -33,10 +33,8 @@ class TasksController < ApplicationController
   end
 
   def destroy
-
     @task.destroy
-    # No need for app/views/restaurants/destroy.html.erb
-    redirect_to tasks_path, status: :see_other
+    redirect_to tasks_path
   end
 
   private
